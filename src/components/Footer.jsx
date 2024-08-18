@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { getYear } from "../utils/utils";
 import { FaFacebookF, FaInstagram, FaYoutube } from "react-icons/fa6";
-import indonesiaFlag from "../assets/id-flag.png";
+import indonesiaFlag from "@assets/id-flag.png";
 import "./Footer.css";
 
 export default function Footer() {

@@ -1,6 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import "./Navbar.css";
-import jcoLogo from "../assets/new_jco_logo.png";
+import jcoLogo from "@assets/new_jco_logo.png";
 
 export default function Navbar() {
   return (
