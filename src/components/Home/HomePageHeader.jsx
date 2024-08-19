@@ -8,6 +8,7 @@ export default function HomePageHeader() {
         alt="J.CO Coffee"
         className="home-page__header-image"
       />
+      <div className="home-page__header-overlay"></div>
       <h1 className="home-page__title">Our Coffee</h1>
     </header>
   );

@@ -1,10 +1,10 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import Home from "@pages/Home";
-import About from "@pages/About";
-import Products from "@pages/Products";
+import Home from "@pages/Home/Home";
+import About from "@pages/About/About";
+import Products from "@pages/Products/Products";
 import Layout from "@layouts/Layout";
-import NotFound from "@pages/NotFound";
+import NotFound from "@pages/NotFound/NotFound";
 
 function App() {
   return (
