@@ -1,0 +1,29 @@
+/* src/pages/Products/Products.css */
+.products-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.products-page__content {
+  width: 100%;
+}
+
+.products-page__title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #661d0a;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .products-page__title {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .products-page__title {
+    font-size: 1.5rem;
+  }
+}
